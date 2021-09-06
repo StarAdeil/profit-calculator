@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Калькулятор</title>
+	<link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+	<div id="block">
+		<h2>Калькулятор</h2>
+		<form action="" method="post">
+			<div class="line">
+			<label for="summ">Бюджет на рекламу :</label><input type="text" name="summ" placeholder="Введите сумму">
+			</div>
+			<div class="line">
+			<label for="commission">Комиссия за заказ <span class="click com">%</span><span class="com">ГРН</span>: </label><input type="text" name="commission" placeholder="Введите комиссию">
+			</div>
+			<div class="line">
+			<label for="commission">Средний чек:</label><input type="text" name="commission" placeholder="Введите сумму">
+			</div>
+			<div class="line">
+			<label for="markup">Наценка на товар(грн):</label><input type="text" name="markup" placeholder="Введите наценку">
+			</div>
+			<div id="start">Рассчитать</div>
+		</form>
+	</div>
+	<div id="result">
+		<div id="countOrder">
+			<h2>Количество заказов</h2>
+			<div id="countOrderResult" class="result"></div>
+		</div>
+		<div id="summOrder">
+			<h2>Сумма прибыли(Общая)</h2>
+			<div id="summOrderResult" class="result"></div>
+		</div>
+		<div id="summOrderMarkup">
+			<h2>Сумма прибыли(Наценка)</h2>
+			<div id="summOrderMarkupResult" class="result">
+				
+			</div>
+		</div>
+	</div>
+	<script src="js/index.js"></script>
+</body>
+</html>

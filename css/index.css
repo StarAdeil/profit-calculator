@@ -1,0 +1,80 @@
+
+h2{
+	color:green;
+}
+#block{
+	width:500px;
+	margin: 50px auto;
+	padding: 20px;
+	border: 15px solid indigo;
+    border-image: linear-gradient(to right top, blueviolet, indigo, blueviolet);
+    border-image-slice: 1;
+	text-align: right;
+}
+#start{
+	color:skyblue;
+	font-size: 20px;
+	padding: 10px;
+	width: 40%;
+	margin:30px auto;
+	text-align: center;
+	cursor:pointer;
+	border-radius: 5px;
+	background-image: linear-gradient(to right top, blueviolet, indigo, blueviolet);
+}
+#start:hover{
+	color:red;
+	background-image: linear-gradient(to right top, indigo,blueviolet,indigo );
+	transition: 1s;
+}
+#result{
+	width: 400px;
+	padding: 20px;
+	border: 15px solid indigo;
+    border-image: linear-gradient(to right top, blueviolet, indigo, blueviolet);
+    border-image-slice: 1;
+	margin: 0px auto;
+}
+.result{
+	color:green;
+	font-size: 30px;
+	text-align: center;
+}
+
+label{
+	font-size: 20px;
+	color:green;
+	font-weight: bold;
+}
+input{
+	border: 5px solid indigo;
+    border-image: linear-gradient(to right top, blueviolet, indigo, blueviolet);
+    border-image-slice: 1;
+    border-radius:10px;
+    padding: 5px;
+}
+h2{
+	text-align: center;
+}
+label{
+	margin-right: 20px;
+}
+.line{
+	margin-top: 10px;
+}
+.com{
+	background-color: gray;
+	opacity: 0.8;
+	padding: 3px;
+	border-radius: 3px;
+	margin-left: 5px;
+	cursor:pointer;
+	color:white;
+}
+.com:hover{
+	color:red;
+	transition: 1s;
+}
+.click{
+	background-color: blue;
+}
